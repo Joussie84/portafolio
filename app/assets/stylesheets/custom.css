@@ -27,6 +27,8 @@
     color: white;
   }
   
+  /*estilo video home*/
+  
   .video-background {
     position: fixed;
     top: 0;
@@ -89,4 +91,28 @@
       margin-top: 10px;
     }
   }
+  
+ 
+/*estilo contacto*/
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("/assets/image.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  
   
